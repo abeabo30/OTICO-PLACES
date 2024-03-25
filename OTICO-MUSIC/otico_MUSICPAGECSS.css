@@ -1,0 +1,202 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(71, 164, 187);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600; 
+    color: white;
+    text-decoration: none;
+    margin-left: 90px;
+}
+.logo span {
+    color: rgb(9, 77, 94);
+}
+li{
+    list-style: none; 
+    display: inline-block;
+}
+li a{
+    color: white; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px; 
+    font-weight: bold; 
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(9, 77, 94);
+    position: relative;
+}
+h1 {
+    color: rgb(9, 77, 94);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 5px 5px 10px #5fb8cf; 
+    font-size: 50px; 
+}
+.header {
+    min-width: 500px;
+    max-width: 100em;
+    margin-bottom: 40%;
+}
+.navigator{
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+    border-radius: 30px;
+    height: 100px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    background-color: white;
+}
+.navigator2 {
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+    border-radius: 30px;
+    height: 100px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    background-color: white;
+}
+.navigator3 {
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+    border-radius: 30px;
+    height: 100px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    background-color: white;
+}
+.navigator:hover {
+    box-shadow: 5px 7px 15px 5px rgb(143, 209, 228); 
+}
+.navigator2:hover {
+    box-shadow: 5px 7px 15px 5px rgb(143, 209, 228); 
+}
+.navigator3:hover {
+    box-shadow: 5px 7px 15px 5px rgb(143, 209, 228); 
+}
+.h1-menu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-decoration: none;
+    text-shadow: none;
+    margin: auto;
+    padding-top: 3px;
+}
+.h1-menu a{
+    text-decoration: none;
+    color: rgb(9, 77, 94);
+}
+.h1-menu a:hover {
+    font-size:45px; 
+    font-weight: 2000;
+    color: rgb(9, 77, 94);
+}
+.h1-menu a:hover:after{
+    background-color: blue;
+    width: 200px;
+}
+.gallery {
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.category {
+    margin-top: 50%;
+    margin-bottom: -100px;
+    margin-left: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+mark {
+    background-color: rgb(188, 217, 224); 
+    border-radius: 10px;
+}
+.song {
+    margin-top: 100px;
+    margin: 20px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    border: 3px solid rgb(201, 201, 201);
+}
+.song:hover {
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+h2 {
+    margin-top: 10px;
+}
+p {
+    color: #555;
+    font-size: 14px;
+}
+.audio-container {
+    margin-top: 20px;
+}
+.opm {
+    margin-top: 0%;
+}
+.button-placement {
+    min-width: 500px;
+    max-width: 100em;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 350px;
+}
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 160px;
+}
+.button:hover {
+    box-shadow: 5px 7px 15px 5px rgb(143, 209, 228); 
+}
+video:hover {
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+}

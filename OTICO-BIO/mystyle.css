@@ -1,0 +1,196 @@
+h1 {
+    color: rgb(9, 77, 94);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 5px 5px 10px #5fb8cf; 
+    font-size: 50px;
+    margin: 2px 2px 2px 3px;
+}
+.top {
+    margin-top: 45%;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(155, 217, 233);
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    background-color: azure;
+    margin: 0;
+}
+p {
+    line-height: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+mark {
+    background-color: rgb(188, 217, 224); 
+    border-radius: 10px;
+}
+sup {
+    color: rgb(9, 77, 94); 
+}
+.navbar{
+    background-color: rgb(71, 164, 187);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600; 
+    color: white;
+    text-decoration: none;
+    margin-left: 90px;
+}
+.logo span {
+    color: rgb(9, 77, 94);
+}
+li{
+    list-style: none; 
+    display: inline-block;
+}
+li a{
+    color: white; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px; 
+    font-weight: bold; 
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(9, 77, 94);
+    position: relative;
+}
+.header {
+    min-width: 500px;
+    max-width: 100em;
+    margin-bottom: 40%;
+}
+.navigator{
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+    border-radius: 30px;
+    height: 100px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    background-color: white;
+}
+.navigator2 {
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+    border-radius: 30px;
+    height: 100px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    background-color: white;
+}
+.navigator3 {
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+    border-radius: 30px;
+    height: 100px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    background-color: white;
+}
+.navigator:hover {
+    box-shadow: 5px 7px 15px 5px rgb(143, 209, 228); 
+}
+.navigator2:hover {
+    box-shadow: 5px 7px 15px 5px rgb(143, 209, 228); 
+}
+.navigator3:hover {
+    box-shadow: 5px 7px 15px 5px rgb(143, 209, 228); 
+}
+.h1-menu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-decoration: none;
+    text-shadow: none;
+    margin: auto;
+    padding-top: 3px;
+}
+.h1-menu a{
+    text-decoration: none;
+    color: rgb(9, 77, 94);
+}
+.h1-menu a:hover:after{
+    background-color: blue;
+    width: 200px;
+}
+.childhood {
+    background-color: white;
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+    border-radius: 30px;
+    height: 600px;
+    width: 550px;
+}
+.column {
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+    border-radius: 30px;
+    height: 350px;
+    width: 350px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+.myself {
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #top{
+    margin: 0;
+    text-align: right;
+    padding-right: 7.5em;
+    padding-bottom: 30px;
+    margin-top: -50px;
+  }
+  p a {
+    text-decoration: none;
+    color: rgb(71, 164, 187);
+  }
+  a:hover {
+    background-color: rgb(179, 219, 229);
+  }
